@@ -1,4 +1,5 @@
 package tic_tac_toe;
 
-public class ICompLevelStrategy {
+public interface ICompLevelStrategy {
+    int makeMove(Board board);
 }
